@@ -9,14 +9,7 @@
     "detected_at": "2026-11-05T08:12:00Z",
     "rca_completed": true,
     "reporter": "maria.chen",
-    "summary": "Duplicate charge retries flooded the payment gateway queue.",
-    "triage": {
-      "decision": "escalated",
-      "reasons": [
-        "Severity SEV2"
-      ],
-      "reviewed_on": "2026-11-11"
-    }
+    "summary": "Duplicate charge retries flooded the payment gateway queue."
   },
   {
     "incident_id": "INC-2202",
@@ -28,12 +21,7 @@
     "detected_at": "2026-11-05T13:40:00Z",
     "rca_completed": true,
     "reporter": "dan.okafor",
-    "summary": "Search index replica lagged after a mapping update.",
-    "triage": {
-      "decision": "monitoring",
-      "reasons": [],
-      "reviewed_on": "2026-11-11"
-    }
+    "summary": "Search index replica lagged after a mapping update."
   },
   {
     "incident_id": "INC-2203",
@@ -45,14 +33,7 @@
     "detected_at": "2026-11-06T09:05:00Z",
     "rca_completed": false,
     "reporter": "li.wei",
-    "summary": "Promo code validation caused intermittent checkout failures.",
-    "triage": {
-      "decision": "escalated",
-      "reasons": [
-        "Customers affected >= 1000"
-      ],
-      "reviewed_on": "2026-11-11"
-    }
+    "summary": "Promo code validation caused intermittent checkout failures."
   },
   {
     "incident_id": "INC-2204",
@@ -64,15 +45,7 @@
     "detected_at": "2026-11-09T22:17:00Z",
     "rca_completed": false,
     "reporter": "priya.nair",
-    "summary": "Token refresh loop forced re-authentication across regions.",
-    "triage": {
-      "decision": "escalated",
-      "reasons": [
-        "Severity SEV1",
-        "Critical-tier service unresolved"
-      ],
-      "reviewed_on": "2026-11-11"
-    }
+    "summary": "Token refresh loop forced re-authentication across regions."
   },
   {
     "incident_id": "INC-2205",
@@ -84,12 +57,7 @@
     "detected_at": "2026-11-07T16:30:00Z",
     "rca_completed": true,
     "reporter": "sam.ortiz",
-    "summary": "Email delivery delays for a single campaign.",
-    "triage": {
-      "decision": "monitoring",
-      "reasons": [],
-      "reviewed_on": "2026-11-11"
-    }
+    "summary": "Email delivery delays for a single campaign."
   },
   {
     "incident_id": "INC-2206",
@@ -101,14 +69,7 @@
     "detected_at": "2026-11-08T02:45:00Z",
     "rca_completed": true,
     "reporter": "nora.volkov",
-    "summary": "Invoice generation backlog after a schema migration.",
-    "triage": {
-      "decision": "escalated",
-      "reasons": [
-        "Duration >= 60 minutes"
-      ],
-      "reviewed_on": "2026-11-11"
-    }
+    "summary": "Invoice generation backlog after a schema migration."
   },
   {
     "incident_id": "INC-2207",
@@ -120,14 +81,7 @@
     "detected_at": "2026-11-08T19:55:00Z",
     "rca_completed": true,
     "reporter": "kenji.sato",
-    "summary": "Streaming job restart dropped a partition window.",
-    "triage": {
-      "decision": "escalated",
-      "reasons": [
-        "Severity SEV2"
-      ],
-      "reviewed_on": "2026-11-11"
-    }
+    "summary": "Streaming job restart dropped a partition window."
   },
   {
     "incident_id": "INC-2208",
@@ -139,11 +93,6 @@
     "detected_at": "2026-11-10T11:20:00Z",
     "rca_completed": false,
     "reporter": "alana.reyes",
-    "summary": "Model refresh produced low-confidence suggestions.",
-    "triage": {
-      "decision": "monitoring",
-      "reasons": [],
-      "reviewed_on": "2026-11-11"
-    }
+    "summary": "Model refresh produced low-confidence suggestions."
   }
 ]
